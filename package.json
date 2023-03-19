@@ -1,7 +1,7 @@
 {
   "name": "openai-image",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple application using OpenAI, and DALL-e",
   "main": "index.js",
   "scripts": {
     "start": "node index",
