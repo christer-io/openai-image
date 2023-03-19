@@ -8,8 +8,8 @@
     "dev": "nodemon index"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Christer Gundersen",
+  "license": "Apache 2.0",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",

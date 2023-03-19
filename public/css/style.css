@@ -126,12 +126,29 @@ form button:hover {
 }
 
 /* Image */
-
 .image {
-  width: 100%;
+  height: auto;
+  max-width: 100%;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; 
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .explain-text {
+    font-size: 10px;
+    color: #ffffff;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .explain-text {
+    visibility: hidden;
+    
+  }
+}
+
 
 img {
   display: block;
