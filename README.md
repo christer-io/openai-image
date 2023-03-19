@@ -2,16 +2,15 @@
 This is a simple image generator built with Node.js and Express that uses OpenAI's Dall-E models to generate images. 
 
 ## Use
-After cloning the repo greate a .env file with ""
-
+After cloning the repo greate a .env file with "OPENAI_API_KEY"
 Generate an API KEY at OpenAI and add it to the .env file.
 
 ## Dependencies
 npm install
 
 ## Run server
-npm start
+npm start/npm run dev
 
-Visit http://localhost:3030 in your browser.
+Visit http://localhost:3030 in your browser. 
 
 The backend endpoint is at POST http://localhost:3030/openai/generateimage, expecting "size", and "prompt" in the post body. 
